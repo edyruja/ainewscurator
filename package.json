@@ -1,0 +1,23 @@
+{
+  "name": "ai-news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@mendable/firecrawl-js": "^4.30.0",
+    "@tavily/core": "^0.7.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "inngest": "^4.11.0",
+    "openai": "^6.45.0",
+    "resend": "^6.17.2"
+  }
+}
